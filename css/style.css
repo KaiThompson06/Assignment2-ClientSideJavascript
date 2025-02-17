@@ -1,0 +1,48 @@
+
+/* this effects each direct child of the body tag */
+body > * {
+    padding: 10px;
+    margin: 10px;
+    /* center everything */
+    text-align: center;
+    font-size: 2em;
+}
+
+/* each button, selection or input */
+button, select, input {
+    /* simple formatting */
+    font-size: 0.8em;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    /* make cursor the little hand when over these items */
+    cursor: pointer;
+}
+
+/* the image */
+img {
+    /* to keep the images the same size */
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+/* the labels */
+label {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0;
+}
+/* student ID */
+#myStudentId {
+    /* bg and border so it doesnt get lost from the random colors */
+    background-color: #eeeeee;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10%;
+    /* hidden by default */
+    display: none;
+}
